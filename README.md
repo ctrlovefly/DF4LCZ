@@ -1,2 +1,10 @@
-# DF4LCZ
-A Dual-Stream Framework for Scene-Level Local Climate Zone Classification Using Google Earth and Sentinel Imagery
+# Project Name
+
+This repository hosts the code for the DF4LCZ model which is a sam-empowered data fusion framework for scene-level local climate zone classification.
+
+# Usage
+
+We will be uploading the code in the coming days. Please check back later for updates.
+
+
+
