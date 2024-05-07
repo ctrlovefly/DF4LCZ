@@ -39,3 +39,8 @@ If you use this code in your research, please consider citing the following pape
 ## Contact
 
 For any inquiries or further information, please contact me.
+
+## Other Works
+There are some other works in our group:
+
+[SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints](https://arxiv.org/abs/2312.02464)(TGRS under review)[Code](https://github.com/sstary/SSRS)
