@@ -1,6 +1,6 @@
 # DF4LCZ
 
-This repository hosts the code for the DF4LCZ model which is a sam-empowered data fusion framework for scene-level local climate zone classification. The relevant paper is [DF4LCZ: A SAM-Empowered Data Fusion Framework for Scene-Level Local Climate Zone Classification](https://arxiv.org/pdf/2403.09367)
+This repository hosts the code for the DF4LCZ model which is a sam-empowered data fusion framework for scene-level local climate zone classification. The relevant paper is [DF4LCZ: A SAM-Empowered Data Fusion Framework for Scene-Level Local Climate Zone Classification](https://ieeexplore.ieee.org/abstract/document/10556641?casa_token=fPD1keUeTw4AAAAA:z8iuo_WSxWuCd2qQI9jmF-q8L_R9EorHqqMHUZAAADKLSByRw1hej2wcW07g0Rgnsjvl75nuE4DYH7I)
 
 ## Usage
 
@@ -41,6 +41,19 @@ python ./GNN_train.py
 ## Citation
 
 If you use this code in your research, please consider citing the following paper:
+
+```
+@ARTICLE{10556641,
+  author={Wu, Qianqian and Ma, Xianping and Sui, Jialu and Pun, Man-On},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={DF4LCZ: A SAM-Empowered Data Fusion Framework for Scene-Level Local Climate Zone Classification}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-16},
+  keywords={Feature extraction;Internet;Earth;Task analysis;Image segmentation;Spatial resolution;Meteorology;Data fusion;local climate zone (LCZ) classification;segment anything model (SAM)},
+  doi={10.1109/TGRS.2024.3414143}}
+```
 
 ## Contact
 
