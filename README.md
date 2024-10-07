@@ -30,7 +30,7 @@ python ./GNN_train.py
 
 ## LCZC-GES2 DATASET
 
-- The LCZC-GES2 dataset comprises 19,088 pairs of image patches. Each pair includes a Google Earth RGB image and a Sentinel-2 multispectral image patch. The data can be found in the folders `sen2_img_patches` and `gg_nodes_refine`.(`gg_nodes_refine` contains all graphes after the graph construction procedure, the original google patches please refer to [Google drive files](https://drive.google.com/file/d/1DpjqUAXr-At3qAoka6Xfdv7w1s0Jkn3c/view?usp=drive_link))
+- The LCZC-GES2 dataset comprises 19,088 pairs of image patches. Each pair includes a Google Earth RGB image and a Sentinel-2 multispectral image patch. The data can be found in the folders `sen2_img_patches` and `gg_nodes_refine`.(`gg_nodes_refine` contains all graphes after the graph construction procedure)
 
 - The folder `patches_split` contains the spliting results from two sampling strategies. The file `partition_polygons_1125.npz` represents one strategy, named “splitting the polygon pool,” while `partition_random.npz` represents the other strategy, named “splitting the sample pool.”
 
