@@ -28,15 +28,24 @@ python ./GNN_train.py
     - Add the weights file paths derived from the two streams into the `fusion.py`,
     - and run `fusion.py`
 
+### SAM and Graph construction
+
+- Download the SAM weights file `sam_vit_h_4b8939.pth` and place it in the `weights` folder.
+- Obtain the original Google patches from the link in the `LCZC-GES2 DATASET` section of this README.md and store them in the DF4LCZ folder.
+- Change the current directory to DF4LCZ.
+- Run `ins_gen.py` for SAM-based instance extraction (make sure to create an output folder beforehand).
+- Execute `testmasks.py` for graph construction; the generated graphs are provided in the folder `gg_nodes_refine`. 
+
 ## LCZC-GES2 DATASET
 
-- The LCZC-GES2 dataset comprises 19,088 pairs of image patches. Each pair includes a Google Earth RGB image and a Sentinel-2 multispectral image patch. The data can be found in the folders `sen2_img_patches` and `gg_nodes_refine`.(`gg_nodes_refine` contains all graphes after the graph construction procedure)
+- The LCZC-GES2 dataset comprises 19,088 pairs of image patches. Each pair includes a Google Earth RGB image and a Sentinel-2 multispectral image patch. The data can be found in the folders `sen2_img_patches` and `gg_nodes_refine`.(`gg_nodes_refine` contains all graphes after the graph construction procedure, the original google patches please refer to [Google drive files](https://drive.google.com/file/d/1DpjqUAXr-At3qAoka6Xfdv7w1s0Jkn3c/view?usp=drive_link))
 
 - The folder `patches_split` contains the spliting results from two sampling strategies. The file `partition_polygons_1125.npz` represents one strategy, named “splitting the polygon pool,” while `partition_random.npz` represents the other strategy, named “splitting the sample pool.”
 
 ## Latest Updates 
 
 - [2024/05/07]: Uploaded a batch of code, including the implementation of DF4LCZ and several comparative models. 
+- [2024/10/07]: Uploaded a batch of code, including the implementation of SAM-based instance extraction and graph construction. 
 
 ## Citation
 
