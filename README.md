@@ -30,9 +30,9 @@ python ./GNN_train.py
 
 ### SAM and Graph construction
 
-- Download the SAM weights file `sam_vit_h_4b8939.pth` and place it in the `weights` folder.
-- Obtain the original Google patches from the link in the `LCZC-GES2 DATASET` section of this README.md and store them in the DF4LCZ folder.
-- Change the current directory to DF4LCZ.
+- Download the SAM weights file `sam_vit_h_4b8939.pth` from [segment anything](https://github.com/facebookresearch/segment-anything) and place it in the `weights` folder of `DF4LCZ`.
+- Obtain the original Google patches from the link in the `LCZC-GES2 DATASET` section of this README.md and store them in the folder `DF4LCZ`.
+- Change the current directory to `DF4LCZ`.
 - Run `ins_gen.py` for SAM-based instance extraction (make sure to create an output folder beforehand).
 - Execute `testmasks.py` for graph construction; the generated graphs are provided in the folder `gg_nodes_refine`. 
 
